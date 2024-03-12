@@ -14,10 +14,17 @@ namespace Mylab2
                 int ans = n / 0;
                 Console.WriteLine(ans);
             }
+            /*
             catch (DivideByZeroException)
             {
                 Console.WriteLine("number can't be divided by zero");
             }
+            */
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+
             finally
             {
                 Console.WriteLine("this is finally block");
