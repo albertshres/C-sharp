@@ -72,6 +72,10 @@ namespace myApp
 
 
             }
+            public void Sound()
+            {
+                Console.WriteLine("Racing Sound");
+            }
 
 
             static void Main(string[] args)
@@ -81,6 +85,8 @@ namespace myApp
 
                 Console.WriteLine(obj1.make);
                 Console.WriteLine(obj2.model);
+                obj1.Sound();
+                obj2.Sound();
             }
         }
 
