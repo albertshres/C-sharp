@@ -32,13 +32,42 @@ namespace Interface
         }
     }
 
+
+    class Circle : Ishape
+    {
+        int radius;
+        double pie = 3.14;
+        public Circle(int radius)
+        {
+
+            this.radius = radius;
+            
+
+        }
+        public void CalArea()
+        {
+
+            double res = pie * radius * radius;
+            Console.WriteLine($"the area of the triangle is {res}");
+        }
+
+        public void DisplayShape()
+        {
+            Console.WriteLine("Shape is Circular");
+            Console.WriteLine($"It has radius = {radius} ");
+        }
+    }
+
     class Program
     {
         static void Main(string[] args) { 
         Triangle myTriangle = new Triangle(3,5);
             myTriangle.CalArea();
             myTriangle.DisplayShape();
-
+        
+        Circle myCircle= new Circle(3);
+            myCircle.CalArea();
+            myCircle.DisplayShape();
         }
     }
 }
