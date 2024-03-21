@@ -63,7 +63,25 @@ namespace file
 
 
             //4....append
-            
+
+            string inputFile = "C:\\Downloads\\output.txt";
+            StreamWriter writer = null;
+            string line;
+            try
+            {
+                writer = new StreamWriter(inputFile,append:true);
+                Console.WriteLine("Enter the message to append");
+                string add= Console.ReadLine();
+                writer.WriteLine(add);
+                writer.Close();
+
+            }
+            catch (Exception ex) { 
+            Console.WriteLine (ex.Message);
+            }
+
+
+
         }
     }
 }

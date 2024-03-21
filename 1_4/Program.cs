@@ -6,8 +6,8 @@ using System;
     static void Main(string[] args)
     {
         Console.WriteLine("Enter a number");
-        string num = Console.ReadLine();
-        int n = Convert.ToInt32(num);
+        //string num = Console.ReadLine();
+        int n = Convert.ToInt32(Console.ReadLine());
 
         if (n % 2 == 0)
         {
