@@ -1,4 +1,9 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+//Inorder to create controller file. First right click on controller , then create mvc controller Empty and the write the name of file for eg HelloWorldController and the create
+
+
+
+using Microsoft.AspNetCore.Mvc;
 
 namespace _4_1.Controllers
 {
