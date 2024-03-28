@@ -9,17 +9,23 @@ namespace _4_1.Controllers
 {
     public class HelloWorldController : Controller
     { 
-        /*
+        
         public IActionResult Index()
         {
-            return View();
+            return View();//now goes to the views file
         }
-        */
+        
+        /*
         public string Index()
         {
             return "Hello World";
         }
+        */
+        public IActionResult Loop() { 
 
+        return View();
+            
+        }
         public string Name(string name,int roll) {
             //localhost:7239/HelloWorld/Name?name=Ram&roll=2 write this in url to get the value i.e get request
 

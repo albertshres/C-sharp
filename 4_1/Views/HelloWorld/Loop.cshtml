@@ -1,0 +1,21 @@
+﻿
+@{
+    ViewData["Title"] = "Loop";
+}
+
+<h1>Loop</h1>
+
+
+@for(int i = 0; i < 10; i++)
+{
+    if (i % 2 == 0)
+    {
+        <h1 style="color:red">@i</h1>
+
+    }
+    else
+    {
+        <h1 style="color:green">@i</h1>
+    }
+}
+
