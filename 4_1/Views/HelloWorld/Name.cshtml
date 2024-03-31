@@ -1,0 +1,14 @@
+﻿
+@{
+    ViewData["Title"] = "Name";
+}
+
+<h1>The name of the student is @ViewData["name"]</h1>
+<h1>The roll of the student is @ViewData["roll"]</h1>
+
+<br />
+@for(int i = 1; i <= Convert.ToInt32(ViewData["roll"]); i++)
+{
+    @ViewData["name"];
+    <br />
+}
