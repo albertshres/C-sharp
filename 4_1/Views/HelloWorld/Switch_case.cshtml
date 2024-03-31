@@ -1,34 +1,33 @@
-﻿
-@{
-    ViewData["Title"] = "Switch_case";
-    int rating = Convert.ToInt32(ViewData["rating"]);
+﻿@{
+	ViewData["Title"] = "Switch_case";
+	int rating = Convert.ToInt32(ViewData["rating"]);
 
-    switch (rating)
-    {
-        case 1:
-        <p>Your rating is 1</p>
-        break;
+	switch (rating)
+	{
+		case 1:
+			<p>Your rating is 1</p>
+			break;
 
-        case 2:
-            <p>Your rating is 2</p>
-            break;
-        case 3:
-            <p>Your rating is 3</p>
-            break;
+		case 2:
+			<p>Your rating is 2</p>
+			break;
+		case 3:
+			<p>Your rating is 3</p>
+			break;
 
-        case 4:
-            <p>Your rating is 4</p>
-            break;
-        case 5:
-            <p>Your rating is 5</p>
-            break;
-        default:
-            <p>Invalid rating</p>
-            break;
-
+		case 4:
+			<p>Your rating is 4</p>
+			break;
+		case 5:
+			<p>Your rating is 5</p>
+			break;
+		default:
+			<p>Invalid rating</p>
+			break;
 
 
-    }
+
+	}
 }
 
 
