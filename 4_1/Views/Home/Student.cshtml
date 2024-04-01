@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "Student";
+}
+
+<a href="/Home">Home</a>
+
+<form>
+    <label >Name:</label>
+    <input type="text" name="name" />
+    <br /><br/>
+    <label>Surname:</label>
+    <input type="text" name="surname" />
+    <br /><br />
+    <label>Subject:</label>
+    <select name="subject">
+        <option value="C#">Dot net</option>
+        <option value="MUL">Multimedia</option>
+        <option value="DBA">Database Admistration</option>
+        <option value="RM">Research Methodology</option>
+    </select>
+    <br /><br />
+    <label>Marks:</label>
+    <input type="number" name="marks" />
+    <br /><br />
+    <label>Faculty:</label>
+    <br /><br />
+    <label>BIT</label><input type="radio"  name="faculty" value="BIT"/>
+    <label>CSIT</label><input type="radio" name="faculty" value="CSIT" />
+
+    <br /><br />
+
+    <label>Roll No:</label>
+    <input type="number" name="roll" />
+    <br /><br />
+    <input  type="submit" value="Submit it"/>
+
+</form>
