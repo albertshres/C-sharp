@@ -8,8 +8,8 @@ class Program
     }
     static void Main (String[] args)
     {
-        int result = sum(2, 3);
-        Console.WriteLine(result);
+        int result = sum(8, 3);
+        Console.WriteLine($"The sum of two number is {result}");
     }
 
     

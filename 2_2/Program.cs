@@ -16,7 +16,7 @@ class Program
 
     static void Main(string[] args)
     {
-        int ans= facto(4);
-        Console.WriteLine(ans);
+        int ans= facto(6);
+        Console.WriteLine($" The factorial of a number is {ans}");
     }
 }

@@ -61,11 +61,11 @@ namespace Interface
     class Program
     {
         static void Main(string[] args) { 
-        Triangle myTriangle = new Triangle(3,5);
+        Triangle myTriangle = new Triangle(1,2);
             myTriangle.CalArea();
             myTriangle.DisplayShape();
         
-        Circle myCircle= new Circle(3);
+        Circle myCircle= new Circle(5);
             myCircle.CalArea();
             myCircle.DisplayShape();
         }

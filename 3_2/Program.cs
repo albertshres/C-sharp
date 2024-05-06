@@ -80,7 +80,7 @@ namespace myapp
             */
 
 
-            string inputFile = "C:\\Downloads\\input.txt";
+            string inputFile = "C:\\Downloads\\random.txt";
             StreamReader reader = null;
             string line;
             try

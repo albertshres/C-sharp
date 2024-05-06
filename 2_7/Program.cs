@@ -1,5 +1,5 @@
 ﻿//7. Create a class representing or proporties like make , model and year. Create instance (object) and display properties
-/*
+
 using System;
 namespace myApp
 {
@@ -7,8 +7,8 @@ namespace myApp
     {
         class Car
         {
-            string make = "India";
-            string model = "Swift";
+            string make = "Germany";
+            string model = "Vw Polo";
             int year = 2001;
 
             static void Main(string[] args)
@@ -22,7 +22,7 @@ namespace myApp
     }
 }
 
-*/
+
 
 /*
 using System;
@@ -52,7 +52,7 @@ namespace myApp
     }
 }
 */
-
+/*
 using System;
 namespace myApp
 {
@@ -91,8 +91,9 @@ namespace myApp
         }
 
 
+
     }
 }
-
+*/
 
 

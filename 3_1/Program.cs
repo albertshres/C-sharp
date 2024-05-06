@@ -15,7 +15,7 @@ namespace file
             */
 
             //Another methods of reading text file
-            /*
+            
             string input = "C:\\Downloads\\file.txt";
             string [] lines=File.ReadAllLines(input);
 
@@ -23,7 +23,8 @@ namespace file
             {
                 Console.WriteLine(line);
             }
-            */
+            
+            
 
             // 2...performing write 
             /*
@@ -33,6 +34,7 @@ namespace file
             sw.WriteLine(str);
             sw.Close();
             */
+            
 
             //Another way to write in a file.
             /*
@@ -63,7 +65,7 @@ namespace file
 
 
             //4....append
-
+            
             string inputFile = "C:\\Downloads\\output.txt";
             StreamWriter writer = null;
             string line;
@@ -79,6 +81,7 @@ namespace file
             catch (Exception ex) { 
             Console.WriteLine (ex.Message);
             }
+            
 
 
 

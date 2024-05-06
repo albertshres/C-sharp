@@ -7,8 +7,8 @@ namespace mylab2
     {
         static void Main(string[] args)
         {
-            string str1 = "Ram";
-            string str2 = "Shah";
+            string str1 = "Archana";
+            string str2 = "Twati";
             string str = string.Concat(str1, str2);
             int len=str.Length;
             Console.WriteLine(str);

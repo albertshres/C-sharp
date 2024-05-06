@@ -7,8 +7,8 @@ namespace Inheritance
     class Program{
         class School
         {
-            public string subject = "Dot net";
-            public string teacher = "Ram shah";
+            public string subject = "Multimedia";
+            public string teacher = "Jenny ";
 
             public string DisplaySubject()
             {

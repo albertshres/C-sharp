@@ -6,7 +6,7 @@ class Program
     {
         static void Main(string[] args)
         {
-            string str = "hello";
+            string str = "dot net";
             int len= str.Length;
             for(int i = len - 1; i >= 0; i--)
             {

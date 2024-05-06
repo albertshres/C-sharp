@@ -15,7 +15,7 @@ namespace myapp
             int n2= Convert.ToInt32(Console.ReadLine());
 
             int sum = n1 + n2;
-            Console.WriteLine("The name is " + name + "the sum of number is " + sum);
+            Console.WriteLine("The name is " + name + " the sum of number is " + sum);
             Console.WriteLine($"The name is {name} and sum of number is {sum}");
             
             

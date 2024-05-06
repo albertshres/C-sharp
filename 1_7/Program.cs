@@ -5,6 +5,7 @@ class Program
 {
     static void Main(string[] args)
     {
+        /*
         //integer array
         int[] num_array;
         num_array = new int[] { 1, 2, 3, 4 };
@@ -13,6 +14,8 @@ class Program
         {
             Console.WriteLine(c);
         }
+        */
+
         //alternative
         int[] nums = { 1, 2, 3, 4 };
         foreach(int a in nums)
@@ -26,12 +29,14 @@ class Program
             Console.WriteLine(b);
         }
 
+        /*
         // using for loop
         int i;
         for (i = 0; i <= string_arr.Length; i++)
         {
             Console.WriteLine(string_arr[i]);
         }
+        */
 
     }
 }
